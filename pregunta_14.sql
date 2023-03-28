@@ -45,4 +45,5 @@
 --  
 SELECT t1.K0, avg(t2.c21) FROM tbl1 AS t1
 INNER JOIN tbl2 AS t2 ON t1.K0 = t2.K1 AND c13 > 400
+GROUP BY 1
 
